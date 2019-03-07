@@ -15,8 +15,8 @@ public class TailsGenerator {
             for (int i = 0; i < value.length(); i++)
                 list.add(String.valueOf(value.charAt(i)));
             list.add("");
-            list.set(0,value);
-            list.set(3,"lo");
+            list.set(0, value);
+            list.set(3, "lo");
             return list;
         }
 
