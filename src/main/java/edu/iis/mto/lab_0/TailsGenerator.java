@@ -9,9 +9,9 @@ public class TailsGenerator {
 
     public List<String> tails(String value) {
         List<String> list = new ArrayList<>();
-        if (value == null)
+        if (value == null) {
             return Collections.emptyList();
-        else {
+        } else {
             for (int i = 0; i < value.length(); i++)
                 list.add(String.valueOf(value.charAt(i)));
             list.add("");
