@@ -10,7 +10,7 @@ public class TailsGenerator {
     public List<String> tails(String value) {
         List<String> list = new ArrayList<>();
         if (value == null)
-            return list = Collections.emptyList();
+            return Collections.emptyList();
         else {
             for (int i = 0; i < value.length(); i++)
                 list.add(String.valueOf(value.charAt(i)));
